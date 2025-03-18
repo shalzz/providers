@@ -5,9 +5,9 @@
   "body": "",
   "metadata": {
     "platform": "revolut",
-    "urlRegex": "https://app.revolut.com/api/retail/user/current/transactions/last\\?count=20$",
+    "urlRegex": "https://app.revolut.com/api/retail/user/current/transactions/last\\?count=20&\\S+",
     "method": "GET",
-    "fallbackUrlRegex": "https://app.revolut.com/api/retail/user/current/transactions/last\\?count=20&\\S+",
+    "fallbackUrlRegex": "https://app.revolut.com/api/retail/user/current/transactions/last\\?count=20$",
     "fallbackMethod": "GET",
     "preprocessRegex": "",
     "transactionsExtraction": {
